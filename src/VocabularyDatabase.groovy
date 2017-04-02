@@ -10,12 +10,20 @@ class VocabularyDatabase {
 
     static def loadFromVocFile(def file) {
         def db = new VocabularyDatabase()
+        def linecounter = 0
         new File(file).readLines().each{ line ->
             def parsed = line.trim().split(";")
-            if(db.db.containsKey(parsed[0])) {
-                println "### Duplicate voc ${parsed[0]}. Ignoring ###"
+            def q = parsed[0].trim()
+            def a = parsed[1].trim()
+            linecounter++
+            if(db.db.containsKey(q)) {
+                println "### Duplicate voc $q. Ignoring ###"
             }
-            db.db[parsed[0]] = new Voc(q : parsed[0], a: parsed[1])
+            try {
+                db.db[q] = new Voc(q: q, a: a)
+            } catch(Exception e) {
+                println "### Error parsing line $linecounter: ${e.getMessage()} ###"
+            }
         }
         return db
     }

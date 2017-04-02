@@ -2,21 +2,50 @@ Hallo;Hej
 Tschüss;Hej då
 Wir sehen uns.;Vi ses.
 Danke;Tack
+ja;ja
+nein;nej
 Hi, ich bin Philipp.;Hej, jag är Philipp.
 Hi, ich heisse Philipp.;Hej, jag heter Philipp.
 Bist du Robert?;Är du Robert?
 Wie heisst du?;Vad heter du?
+Wie heisst sie?;Vad heter hon?
 zu heissen;att heta
 zu reisen;att resa
 zu kommen;att komma
 zu spielen;att spela
 zu machen;att göra
 zu essen;att äta
+zu trinken;att dricka
 zu wohnen;att bo
 zu sprechen;att tala
-sein;att vara
+zu sitzen;att sitta
+zu besuchen;att besöka
+zu liegen;att ligga
+zu bestellen;att beställa
+zu helfen;att hjälpa
+zu grüssen;att hälsa
+zu treffen;att träffa
+zu sein;att vara
+zu nehmen;att ta
+zu wollen;att villja
+zu sollen;att skola
+zu fahren;att åka
+zu empfehlen;att rekommendera
+zu gehen;att gå
+zu schauen;att titta
+zu arbeiten;att arbeta
+zu leben;att leva
+ich soll;jag ska
+ich will;jag vill
+Ich möchte reisen.;Jag vill resa.
+Soll ich dir helfen?;Ska jag hjälpa dig?
+Kann ich dort sitzen?;Kan jag sitta där?
+Ja, klar.;Ja, självklart.
 Wir reisen durch Schweden.;Vi reser i Sverige.
 Reist ihr durch Schweden?;Reser ni i Sverige?
+Reist ihr auch bis Umeå?;Reser ni också till Umeå?
+auch;också
+bis;till
 Woher kommt Hans?;Varifrån kommer Hans?
 Ich komme aus Wien.;Jag kommer från Wien.
 Ich komme aus Zürich.;Jag kommer från Zurich.
@@ -25,6 +54,7 @@ Sie sind aus Malmö.;De är från Malmö.
 Wo wohnt ihr?;Var bor ni?
 Wir wohnen in Strandvägen 1, Göteborg.;Vi bor på Strandvägen 1, Göteborg.
 Wir wohnen in Göteborg.;Vi bor i Göteborg.
+Das liegt in Schweden.;Det ligger i Sverige.
 Wie geht es dir?;Hur mår du?
 Mir geht es gut.;Jag mår bra.
 Und du?;Och du?
@@ -47,14 +77,216 @@ wir;vi
 ihr;ni
 sie (Mehrzahl);de
 Wie schön!;Vad trevligt!
-Australien;Australien
-Ich spreche schwedisch.;Jag talar svenska.
+Wie toll!;Vad kul!
+eine Stadt;en stad
+eine Strasse;en gata
+ein Land;ett land
+eine Sprache;ett språk
+ein Jahr;ett år
+Was sprecht ihr für Sprachen?;Vad talar ni för språk?
+Ich spreche Deutsch.;Jag talar tyska.
+Ich spreche Schwedisch.;Jag talar svenska.
+Ich spreche Deutsch, Englisch, und ein bisschen Schwedisch und Französisch.;Jag talar tyska, engelska, och lite svenska och franska.
+Ich spreche ein bisschen Schwedisch.;Jag talar lite svenska.
 Was sprechen sie für eine Sprache in der Schweiz?;Vad talar de för språk i Schweiz?
+Ich möchte perfekt Schwedisch sprechen.;Jag vill tala perfekt svenska.
+perfekt;perfekt
+Bist du Schwedisch?;Är du svensk?
+Ja, das bin ich.;Ja, det är jag.
+achso;jaha
+nicht;inte
+Ich bin nicht deutsch.;Jag är inte tyska.
+Das versteh ich nicht.;Det förstår jag inte.
+Jetzt versteh ich.;Nu förstår jag.
 Wir essen Frühstück.;Vi äter frukost.
-Wer ist das dort?;Vem är det där?
-eine Grossmutter (väterlicherseits);en farmor
-eine Grossvater (väterlicherseits);en farfar
+haben wollen;vill ha
+sollen;ska
+Tasse;kopp
+gerne;gärna
+Konditorei;konditoriet
+Du auch?;Du också?
+lieber;hellre
+ein Tee;en te
+ein Cola;en cola
+vor;framför
+Elin soll Anton vor dem Kino treffen.;Elin ska träffa Anton framför bion.
+Ich soll von Julia grüssen.;Jag ska hälsa från Julia.
+Ihr sollt jetzt ins Bett gehen!;Nu ska ni gå och lägga er!
+Was sollen wir essen?;Vad ska vi äta?
+Wo sollen wir essen?;Var ska vi äta?
+Da ist der Kellner.;Där är servitören.
+Jetzt bestellen wir.;Nu beställer vi.
+Ich will eine Zimtschnecke haben.;Jag vill ha en kanelbulle.
+Ich hätte gerne ('sollte wollte haben') ein belegtes Brot.;Jag skulle villja ha en smörgås.
+Ich nehme gerne eine Tasse Kaffee.;Jag tar gärna en kopp kaffee.
+Willst du einen Kaffee haben?;Vill du ha en kaffee?
+Ich nehme lieber einen Tee.;Jag tar hellre en te.
+Kann ich ein Bier bekommen?;Kan jag få en öl?
+Ich möchte ein Cola haben, danke.;Jag vill ha en cola, tack.
+Willst du eine Kaffeepause machen?;Vill du fika?
+Und zu drinken?;Och att dricka?
+Hättest du gerne ein Glas?;Skulle du villja ha ett glas?
+eine Zimtschnecke;en kanelbulle
+ein Käsebrötchen;en ostfralla
+ein belegtes Brot;en smörgås
+ein Brötchen;en fralla
+ein Käse;en ost
+ein Saft;en juice
+ein Bier;en öl
+ein Glas;ett glas
+ein Apfel;ett äpple
+ein Foto;ett foto
+ein Auto;en bil
+ohne;utan
+klar;javisst
+ein Kellner;en servitör
+danke sehr;tack så mycket
+Ich bin bald wieder zurück.;Jag är snart tillbaka.
+bald;snart
+zurück;tillbaka
+Prost!;Skål!
+ein Urlaub;en semester
+ein Hotel;ett hotell
+ein Restaurant;en restaurang
+ein Zug;ett tåg
+ein Bus;en buss
+ein Museum;ett museet
+ein Campingplatz;en campingplats
+eine Jugendherberge;ett vandrarhem
+Ich bin auf Urlaub in Stockholm.;Jag är på semester i Stockholm.
+Schönen Urlaub.;Trevlig semester.
+in der Nähe;i närheten
+Ich fahre Zug.;Jag åker tåg.
+Ich fahre Bus.;Jag åker buss.
+Gibt es ein gutes Restaurant in der Nähe?;Finns det ett bra restaurang i närheten?
+in der Nähe des Grand Hotel;i närheten av Grand Hotel
+Ja, das gibt es.;Ja, det finns det.
+Das Hotel liegt am Strandvägen 8.;Hotell ligger på Strandvägen 8.
+Wie komme ich dort hin?;Hur kommer jag dit?
+Bist du mit dem Auto hier?;Är du här med bil?
+Wo ist das Auto?;Var är bilen?
+Wie heisst die Strasse?;Var heter hatan?
+Gibt es einen Bus den man nehmen kann?;Finns det en buss som man kan ta?
+Ja, du kannst einen Bus ins zum Restaurant nehmen.;Ja, du kan ta en buss till restaurangen.
+Bus 2 geht von Hamngatan.;Buss 2 går från Hamngatan.
+Robert wohnt am Kullabergsvägen 3.;Robert bor på Kullabergsvägen 3.
+Das Restaurant Bra liegt am Strandvägen 3.;Restaurang Bra ligger på Strandvägen 3.
+Könnt ihr auch ein Restaurant empfehlen?;Kan ni också rekommendera en restaurang?
+Fahr lieber nach Schonen.;Äk hellre till Skåne.
+Schau nicht so viel TV.;Titta inte så mycket på TV.
+Geh in die Wohnung hinein.;Gå in i lägenheten.
+Reise vom Flughafen Arlanda.;Res från Arlanda flyplats.
+ein Flughafen;en flygplats
+Geh geradeaus.;Gå rakt fram.
+nach links;till vänster
+nach rechts;till höger
+Wo liegt das Museum?;Var ligger museet?
+Entschuldigung!;Ursäkta!
+ich entschuldige mich.;Jag ursäktar.
+Danke für die Hilfe.;Tack för hjälpen.
+ein Krankenhaus;ett sjukhus
+ein Ärztehaus;en vårdcentral
+im Zentrum; i centrum
+Verzeihung, gibt es ein Krankhaus im Zentrum?;Ursäkta, finns det ett sjukhus i centrum?
+Nein, aber es gibt ein Ärztehaus.;Nej, men det finns en vårdcentral.
+Da kannst du Hilfe bekommen.;Där kan du få hjälp.
+Komm!;Kom!
+ein Bahnhof;en station
+eine Kreuzung;en korsning
+eine Post;en post
+eine Apotheke;ett apotek
+Schau auf die Karte.;Titta här på kartan.
+Wir sind hier.;Vi är här.
+Geh geradeaus zum Bahnhof und bieg rechts ab.;Gå rakt fram till stationen och ta till höger.
+Nach rechts?;Till höger?
+Stimmt das?;Stämmer det?
+Keine Ursache.;Ingen orsak.
+Das Ärztehaus liegt links nach der Kreuzung.;Vårdcentralen ligger till vänster efter korsningen.
+nach;efter
+Dorthin werde ich nacher gehen.;Dit ska jag gå sedan.
+dann;sedan
+bisschen;lite
+Bist du verheiratet?;Är du gift?
+Ich bin unverheiratet.;Jag är ogift.
+Ist dein Mann mit im Zug?;Är din man med på tåget?
+Mein Mann ist noch in der Stadt.;Min man är kvar i stan.
+noch;kvar
+ein Sommerhaus;ett sommarhus
+ein Mann;en man
+eine Frau;en kvinna
+ein Meer;ett hav
+ein Haus;ett hus
+Er wird arbeiten.;Han ska arbeta.
+Ich werde nach Stockholm fahren.;Jag ska äka till Stockholm.
+Hast du Kinder?;Har du barn?
+Ich habe keine Kinder.;Jag har inte barn.
+Ja, ein Sohn und eine Tochter.;Ja, en son och en dotter.
+Hier ist ein Foto.;Här är ett foto.
+Wer ist der Mann links?;Vem är mannen till vänster?
+Das ist mein Sohn.;Det är min son.
+Seine Frau heisst Anna.;Hans fru heter Anna.
+Und die Frau rechts?;Och kvinnan till höger?
+Das ist meine Tochter Lina.;Det är min dotter Lina.
+Sie ist die Mutter von Niclas.;Hon är mamma till Niclas.
+Meine Eltern wohnen am Meer.;Mina föräldrar bor vid havet.
+Sind deine Eltern mit am Foto?;Är dina föräldrar med på fotot?
+mein Enkelkind;mitt barnbarn
+sein Enkelkind;hans barnbarn
+ihr Enkelkind;hennes barnbarn
+Das ist dein Sommerhaus.;Det är ditt sommerhus.
+Ich habe ein Auto.;Jag här en bil.
+Das ist mein Auto.;Det är min bil.
+Er wohnt in einer Wohnung.;Han bor i en lägenhet.
+Das ist seine Wohnung.;Det är hans lägenhet.
+Das ist seine Tochter.;Det är hans dotter.
+Das ist mein Fernseher.;Det är min TV.
+Deinen Apfel will ich nicht.;Ditt äpple vill jag inte ha.
+Seine Frau wohnt in seinem Haus.;Hans fru bor i hans hus.
+mein Mann;min man
+meine Frau;min fru
+eine Mutter;en mamma
+ein Vater;en pappa
+ein Sohn;en son
+eine Tochter;en dotter
+ein Enkelkind;ett barnbarn
+ein Kind;ett barn
 deine Eltern;dina föräldrar
 ein Bruder;en bror
 eine Schwester;en syster
-ein Freund;en kompis
+ein Freund (freundschaftlich);en kompis
+mein Freund (Partner);mina pojkvän
+meine Freundin (Partner);min flickvän
+Wer ist das dort?;Vem är det där?
+eine Grossmutter (väterlicherseits);en farmor
+eine Grossvater (väterlicherseits);en farfar
+eine Grossmutter (mütterlicherseits);en mormor
+eine Grossvater (mütterlicherseits);en morfar
+Grosseltern (mütterlicherseits);morföräldrar
+Grosseltern (väterlicherseits);farföräldrar
+Onkel (mütterlicherseits);morbror
+Tante (mütterlicherseits);moster
+Neffe (schwesterlicherseits);systerson
+Das ist meine Oma (väterlicherseits).;Det här är min farmor.
+Mein Opa (väterlicherseits) lebt nicht mehr.;Min farfar lever inte mer.
+Meine Oma (mütterlicherseits) wird morgen 80.;Min mormor fyller 80 år i morgon.
+Und das dort?;Och det där?
+Has du Geschwister?;Har du syskon?
+Er hat keine Freundin.;Han har ingen flickvän.
+Das Auto hier ist meines.;Den här bilen är min.
+Dort ist ein Haus.;Där är ett hus.
+Das Haus dort ist meines.;Det där huset är mitt.
+Das hier ist meine Freundin (Partnerin).;Det här är min flickvän.
+Das dort ist mein Enkelkind.;Det där är mitt barnbarn.
+Iss nicht den Apfel dort!;Ät inte det där äpplet!
+Ist dieser Freund dort nett?;Är den där kompisen trevlig?
+ein Tisch;ett bord
+eins;ett
+zwei;två
+drei;tre
+vier;fyra
+fünf;fem
+sechs;sex
+sieben;sju
+acht;åtta
+neun;nio
+zehn;tio
