@@ -4,14 +4,14 @@ class VocabularyDatabase {
 
     private def db = [:]
     private def backlist = new Backlist()
-    private def selector = new QuestionSelector(db : db, backlist : backlist)
+    private def selector = new QuestionSelector(db : this, backlist : backlist)
+    private def random = new Random()
 
     private VocabularyDatabase() {}
 
     static def loadFromVocFile(def file) {
         def db = new VocabularyDatabase()
-        def linecounter = 0
-        new File(file).readLines().each{ line ->
+        new File(file).readLines().eachWithIndex{line, linecounter ->
             def parsed = line.trim().split(";")
             def q = parsed[0].trim()
             def a = parsed[1].trim()
@@ -22,7 +22,7 @@ class VocabularyDatabase {
             try {
                 db.db[q] = new Voc(q: q, a: a)
             } catch(Exception e) {
-                println "### Error parsing line $linecounter: ${e.getMessage()} ###"
+                println "### Error parsing line ${linecounter + 1}: ${e.getMessage()} ###"
             }
         }
         return db
@@ -32,22 +32,32 @@ class VocabularyDatabase {
         def f = new File(file)
         if(!f.exists())
             return
-        f.readLines().each{ line ->
-            def parsed = line.trim().split(";")
-            def q = parsed[0]
-            def correct = parsed[3] as boolean
-            def lastAsked = Date.parse(DATE_FORMAT, parsed[4])
-            if(!db.containsKey(q)) {
-                println "### Previous voc '${q}' not found in vocabulary database. Ignoring ###"
-                return
+        f.readLines().eachWithIndex{ line, linecounter ->
+            try {
+                def parsed = line.trim().split(";")
+                def q = parsed[0]
+                def correct = parsed[3] == "true"
+                def lastAsked = Date.parse(DATE_FORMAT, parsed[4])
+                if (!db.containsKey(q)) {
+                    println "### Previous voc '${q}' not found in vocabulary database. Ignoring ###"
+                    return
+                }
+                if (correct)
+                    db[q].correct++
+                else
+                    db[q].incorrect++
+                db[q].lastAsked = lastAsked
+            } catch(Exception e) {
+                println "### Error parsing log line ${linecounter + 1}: ${e.getMessage()} ###"
             }
-            if(correct)
-                db[q].correct++
-            else
-                db[q].incorrect++
-            db[q].lastAsked = lastAsked
         }
+        // // TMP - debug
+        // db.each { k, v ->
+        //   println "${k}: ${v.correct}/${v.incorrect}"
+        // }
     }
+
+    def getDatabase() { db }
 
     def nextQuestion(){ selector.selectQuestion() }
 
@@ -68,6 +78,20 @@ class VocabularyDatabase {
     }
 
     def size(){ db.size() }
+
+    def hasNew() { db.any{_,q ->  q.lastAsked == null } }
+
+    def randomNew() {
+        def news = db.findAll{_,q -> q.lastAsked == null }.values()
+        news[random.nextInt(news.size())]
+    }
+
+    def hasNegative() { db.any{_,q -> q.correct < q.incorrect } }
+
+    def randomNegative() {
+        def incorrects = db.findAll{_,q -> q.correct < q.incorrect }.values()
+        incorrects[random.nextInt(incorrects.size())]
+    }
 
     private void log(def logfile, def question, def answer, def isCorrect) {
         def log = "${question.q};${question.a};$answer;$isCorrect;${new Date().format(DATE_FORMAT)}\n"

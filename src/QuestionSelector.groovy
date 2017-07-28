@@ -1,7 +1,10 @@
 class QuestionSelector {
 
-    private static SELECT_FROM_BACK = 0.35
+    private static SELECT_FROM_BACK = 0.1
+    private static SELECT_NEW = 0.33
+    private static SELECT_NEGATIVE = 0.33
     private static START_SCORE = 3
+
 
     private def db
     private def backlist
@@ -9,16 +12,33 @@ class QuestionSelector {
 
     def selectQuestion() {
 
+        def selectedQ = [:]
+
+        // first see if we should select from our backlist
         if(!backlist.isEmpty() && r.nextFloat() < SELECT_FROM_BACK) {
-            backlist.randomEntry(r)
+            selectedQ['q'] = backlist.randomEntry(r)
+            selectedQ['reason'] = 'backlist'
+        // then see if we should select a new voc
+        } else if(r.nextFloat() < SELECT_NEW && db.hasNew()) {
+            selectedQ['q'] = db.randomNew()
+            selectedQ['reason'] = 'new'
+        // then see if we should select a voc with negative score
+        } else if(r.nextFloat() < SELECT_NEGATIVE && db.hasNegative()) {
+            selectedQ['q'] = db.randomNegative()
+            selectedQ['reason'] = 'negative'
+        // just roulettewheel select from all entries
         } else {
-            roulettewheelSelectFromDB(db, r)
+            selectedQ['q'] = roulettewheelSelectFromDB(db, r)
+            selectedQ['reason'] = 'wheel'
         }
+
+        return selectedQ
 
     }
 
-    private def roulettewheelSelectFromDB(def db, def random) {
+    private def roulettewheelSelectFromDB(def database, def random) {
 
+        def db = database.getDatabase()
         def allWords = db.keySet()
         def scoreList = allWords.collect{
             def baseScore = db[it].incorrect - db[it].correct + START_SCORE

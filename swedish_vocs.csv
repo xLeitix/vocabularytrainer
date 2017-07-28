@@ -118,7 +118,7 @@ Da ist der Kellner.;Där är servitören.
 Jetzt bestellen wir.;Nu beställer vi.
 Ich will eine Zimtschnecke haben.;Jag vill ha en kanelbulle.
 Ich hätte gerne ('sollte wollte haben') ein belegtes Brot.;Jag skulle villja ha en smörgås.
-Ich nehme gerne eine Tasse Kaffee.;Jag tar gärna en kopp kaffee.
+Ich nehme gerne eine Tasse Kaffee.;Jag tar gärna en kopp kaffe.
 Willst du einen Kaffee haben?;Vill du ha en kaffee?
 Ich nehme lieber einen Tee.;Jag tar hellre en te.
 Kann ich ein Bier bekommen?;Kan jag få en öl?
@@ -175,7 +175,7 @@ Könnt ihr auch ein Restaurant empfehlen?;Kan ni också rekommendera en restaura
 Fahr lieber nach Schonen.;Äk hellre till Skåne.
 Schau nicht so viel TV.;Titta inte så mycket på TV.
 Geh in die Wohnung hinein.;Gå in i lägenheten.
-Reise vom Flughafen Arlanda.;Res från Arlanda flyplats.
+Reise vom Flughafen Arlanda.;Res från Arlanda flygplats.
 ein Flughafen;en flygplats
 Geh geradeaus.;Gå rakt fram.
 nach links;till vänster
@@ -233,7 +233,7 @@ Sind deine Eltern mit am Foto?;Är dina föräldrar med på fotot?
 mein Enkelkind;mitt barnbarn
 sein Enkelkind;hans barnbarn
 ihr Enkelkind;hennes barnbarn
-Das ist dein Sommerhaus.;Det är ditt sommerhus.
+Das ist dein Sommerhaus.;Det är ditt sommarhus.
 Ich habe ein Auto.;Jag här en bil.
 Das ist mein Auto.;Det är min bil.
 Er wohnt in einer Wohnung.;Han bor i en lägenhet.
@@ -291,3 +291,144 @@ acht;åtta
 neun;nio
 zehn;tio
 Meine Frau ist vegan.;Min fru är vegan.
+Hast zu Zeit am Freitag?;Har du tid på fredag?
+Ich werde ausgehen.;Jag ska gå ut.
+Hast du Lust ins Kino zu gehen?;Har du lust att gå på bio?
+Ich würde gerne ins Kino gehen.;Jag skulle gärna gå på bio.
+Nein, leider nicht.;Nej, tyvärr inte.
+Wie schade!;Vad synd!
+Ich werde mit meiner Schwester am Freitag ausgehen.;Jag ska gå ut med min syster på fredag.
+Ja, ich habe Zeit.;Ja, jag har tid.
+Ich pflege oft zum Nationalmuseum zu gehen.;Jag brukar ofta gå till Nationalmuseet.
+ich pflege;jag brukar
+oft;ofta
+Ich will shoppen gehen.;Jag vill gå och shoppa.
+Dann machen wir das.;Då gör vi det.
+Zeit;tid
+Montag;måndag
+Dienstag;tisdag
+Mittwoch;onsdag
+Donnerstag;dorsdag
+Freitag;fredag
+Samstag;lördag
+Sonntag;söndag
+auszugehen;att gå ut
+Lust zu haben;att hat lust
+shoppen zu gehen;att gå och shoppa
+Der Ausverkauf startet da.;Rean startar då.
+Was pflegst du am Tag zu tun?;Var brukar du göra på dagen?
+Ich pfege am Tag zu arbeiten.;Jag brukar arbeta på dagen.
+Wie spät ist es?;Vad är klockan?
+Wann sollen wir uns treffen?;När ska vi träffas?
+Es ist erst zehn nach zwölf.;Klockan är bara tio över tolv.
+Wollen wir gegen acht Uhr sagen?;Ska vi säga vid åttatiden?
+Wollen wir zusammen zu Abend essen?;Ska vi äta middag tillsammans?
+Bei dir zu Hause?;Hemma hos dig?
+Wie ist deine Telefonnummer?;Vad har du för telefonnummer?
+eine Telefonnummer;ett telefonnummer
+Meine Nummer ist 15 20 13.;Mitt nummer är 15 20 13.
+zu Abend essen;äta middag
+zu Mittag essen;äta lunch
+Wir können bei mir zu Hause sein.;Vi kan vara hemma hos mig.
+bei mir zu Hause;hemma hos mig
+Falls ich es bis acht nicht schaffe.;Om jag inte hinner tell åtta.
+Wie spät ist es jetzt?;Vad är klockan nu?
+Es ist elf Uhr.;Klockan är elva.
+Es ist dreizehn nach elf Uhr.;Klockan är tretton över elva.
+Es ist zwanzig vor zwölf.;Klockan är tjugo i tolv.
+Es ist viertel nach elf.;Klockan är kvart över elva.
+Das Kino fängt um 12 Uhr Fünfzehn an;Bion börjar tolv och femton.
+Ich habe um dreizehn Uhr zwanzig Mittagspause.;Jag har lunchpaus tretton och tjugo.
+Keine Sorge.;Ingen fara.
+falls;om
+halb eins;halv ett
+halb;halv
+elf;elva
+zwölf;tolv
+dreizehn;tretton
+vierzehn;fjorton
+fünfzehn;femton
+sechzehn;sexton
+siebzehn;sjutton
+achtzehn;arton
+neunzehn;nitton
+zwanzig;tjugo
+Ich pflege TV zu schauen.;Jag brukar titta på TV.
+Ich pflege TV zu sehen.;Jag brukar se på TV.
+Ich pflege vegetarisch zu essen.;Jag brukar äta vegetariskt.
+Ich pflege an Dienstagen zu arbeiten.;Jag brukar arbeta på tisdagarna.
+Wann isst du zu Abend?;När äter du middag?
+Ich pflege um neunzehn Uhr zu abend zu essen.;Jag brukar äta middag klockan nitton.
+gegen elf Uhr;elvatiden
+am Abend; på kvällen
+Das war lange her.;Det var längesedan.
+Sollen wir zusammen Abend essen?;Ska vi äta middag tilsammans?
+Das können wir sein.;Det kan vi vara.
+Sollen wir den Wein mitbringen?;Ska vi ta med ett vin?
+ein Wein;ett vin
+zur Mutter gehen;gå till mamma
+Ich pflege an Dienstagen zu arbeiten.;Jag brukar arbeta på tisdagarna.
+vielleicht;kanske
+eine Katze; en katt
+schön;skön
+Hier ist die Speisekarte.;Här är menyn.
+Kannst du etwas empfehlen?;Kan du rekommendera något?
+Ich nehme Fleischbällchen als Hauptgericht.;Jag tar köttbullar som varmrätt.
+Fleischbällchen;köttbullar
+Kann ich die Rechnung bekommen?;Kan jag få notan?
+Der gebeizte Lachs ist sehr gut.;Gravlaxen är mycket god.
+Ist der Elchbraten gut?;Är älgsteken god?
+Der Käsekuchen ist zu süss.;Ostkakan är för söt.
+Ich mag Wild.;Jag tycker om vilt.
+Das mag ich.;Det gillar jag.
+Tagesgericht;dagens rätt
+Ja, das Tagesgericht hier ist gut.;Ja, dagens rätt här är bra.
+Was kostet das Tagesgericht?;Vad kostar dagens rätt?
+Salad, Brot, und ein Getränk zur freien Auswahl sind inbegriffen.;Salad, bröd, och valfri dryck ingår.
+Ja, sehr.;Ja, mycket.
+Dann nehme ich nur einen Kaffee nach dem Essen.;Då tar jag bara kaffe på maten.
+nach dem Essen;på maten
+Wild;vilt
+Und selbstverständlich die Fleischbällchen.;Köttbullarna förstås.
+Ich will einen Käsekuchen zur Nachspeise.;Jag vill ha ostkaka till efterrätt.
+Die Rechnung beträgt dreihundertfünfundzwanzig Kronen.;Notan är på trehundratjugofem kronor.
+Bitteschön, hier sind dreihundertfünfzig Kronen.;Varsågod, här är trehundrafemtio kronor.
+Es stimmt so.;Det är jämnt.
+selbstverständlich;förstås
+eine Vorspeise;en förrätt
+eine Hauptpeise;en varmrätt
+eine Nachpeise;en efterrätt
+ein gebeizter Lachs; en gravlax
+ein Käsekuchen;en ostkaka
+ein grosses Starkbier; en stor stark
+eine Flasche Mineralwasser;en flaska mineralvatten
+ein Weisswein; en vitt vin
+Guten Appetit!;Smaklig måltid!
+Bitteschön.;Varsågod.
+dreissig;trettio
+vierzig;fyrtio
+fünfzig;femtio
+sechzig;sextio
+siebzig;sjuttio
+achzig;åttio
+neunzig;nittio
+hundert;hundra
+tausend;tusen
+gross;stor
+klein;liten
+warm;varm
+kalt;kall
+billig;billig
+teuer;dyr
+gut;bra
+schlecht;dålig
+stark;stark
+schwach;svag
+süss;söt
+sauer;sur
+Die Zitrone ist eine saure Frucht.;Citronen är en sur frukt.
+Das hier ist ein kleiner Hund.;Det här är en liten hund.
+Das hier ist eine grosse Portion.;Det här är en stor portion.
+Das hier ist ein schlechter Film.;Det här är en dålig film.
+Hering ist ein billiger Fisch.;Sill är en billig fisk.
+ein Fisch; en fisk
