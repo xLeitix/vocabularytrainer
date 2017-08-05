@@ -11,7 +11,8 @@ if(!VOICE_ENABLED)
 db = VocabularyDatabase.loadFromVocFile(VOC_FILE)
 db.loadPreviousResults(LOG)
 println "### Successfully loaded ${db.size()} entries ###"
-
+println "### ${db.positiveRated()} entries are rated positively, ${db.countNews()} are new. ###"
+println "### Your overall record is ${db.overallRecord()}. ###"
 cont = true
 reader = System.in.newReader()
 stats = new Stats()

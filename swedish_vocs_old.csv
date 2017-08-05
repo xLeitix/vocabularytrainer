@@ -12,6 +12,7 @@ Wie heisst sie?;Vad heter hon?
 zu heissen;att heta
 zu reisen;att resa
 zu kommen;att komma
+zu spielen;att spela
 zu machen;att göra
 zu essen;att äta
 zu trinken;att dricka
@@ -39,6 +40,7 @@ ich will;jag vill
 Ich möchte reisen.;Jag vill resa.
 Soll ich dir helfen?;Ska jag hjälpa dig?
 Kann ich dort sitzen?;Kan jag sitta där?
+Ja, klar.;Ja, självklart.
 Wir reisen durch Schweden.;Vi reser i Sverige.
 Reist ihr durch Schweden?;Reser ni i Sverige?
 Reist ihr auch bis Umeå?;Reser ni också till Umeå?
@@ -88,6 +90,7 @@ Ich spreche Deutsch, Englisch, und ein bisschen Schwedisch und Französisch.;Jag
 Ich spreche ein bisschen Schwedisch.;Jag talar lite svenska.
 Was sprechen sie für eine Sprache in der Schweiz?;Vad talar de för språk i Schweiz?
 Ich möchte perfekt Schwedisch sprechen.;Jag vill tala perfekt svenska.
+perfekt;perfekt
 Bist du Schwedisch?;Är du svensk?
 Ja, das bin ich.;Ja, det är jag.
 achso;jaha
@@ -100,10 +103,15 @@ haben wollen;vill ha
 sollen;ska
 Tasse;kopp
 gerne;gärna
+Konditorei;konditoriet
 Du auch?;Du också?
 lieber;hellre
 ein Tee;en te
 ein Cola;en cola
+vor;framför
+Elin soll Anton vor dem Kino treffen.;Elin ska träffa Anton framför bion.
+Ich soll von Julia grüssen.;Jag ska hälsa från Julia.
+Ihr sollt jetzt ins Bett gehen!;Nu ska ni gå och lägga er!
 Was sollen wir essen?;Vad ska vi äta?
 Wo sollen wir essen?;Var ska vi äta?
 Da ist der Kellner.;Där är servitören.
@@ -133,6 +141,8 @@ ohne;utan
 klar;javisst
 ein Kellner;en servitör
 danke sehr;tack så mycket
+Ich bin bald wieder zurück.;Jag är snart tillbaka.
+bald;snart
 zurück;tillbaka
 Prost!;Skål!
 ein Urlaub;en semester
@@ -172,7 +182,7 @@ nach links;till vänster
 nach rechts;till höger
 Wo liegt das Museum?;Var ligger museet?
 Entschuldigung!;Ursäkta!
-Ich entschuldige mich.;Jag ursäktar.
+ich entschuldige mich.;Jag ursäktar.
 Danke für die Hilfe.;Tack för hjälpen.
 ein Krankenhaus;ett sjukhus
 ein Ärztehaus;en vårdcentral
@@ -180,9 +190,12 @@ im Zentrum; i centrum
 Verzeihung, gibt es ein Krankhaus im Zentrum?;Ursäkta, finns det ett sjukhus i centrum?
 Nein, aber es gibt ein Ärztehaus.;Nej, men det finns en vårdcentral.
 Da kannst du Hilfe bekommen.;Där kan du få hjälp.
+Komm!;Kom!
 ein Bahnhof;en station
 eine Kreuzung;en korsning
 eine Post;en post
+eine Apotheke;ett apotek
+Schau auf die Karte.;Titta här på kartan.
 Wir sind hier.;Vi är här.
 Geh geradeaus zum Bahnhof und bieg rechts ab.;Gå rakt fram till stationen och ta till höger.
 Nach rechts?;Till höger?
@@ -196,6 +209,8 @@ bisschen;lite
 Bist du verheiratet?;Är du gift?
 Ich bin unverheiratet.;Jag är ogift.
 Ist dein Mann mit im Zug?;Är din man med på tåget?
+Mein Mann ist noch in der Stadt.;Min man är kvar i stan.
+noch;kvar
 ein Sommerhaus;ett sommarhus
 ein Mann;en man
 eine Frau;en kvinna
@@ -253,6 +268,7 @@ Tante (mütterlicherseits);moster
 Neffe (schwesterlicherseits);systerson
 Das ist meine Oma (väterlicherseits).;Det här är min farmor.
 Mein Opa (väterlicherseits) lebt nicht mehr.;Min farfar lever inte mer.
+Meine Oma (mütterlicherseits) wird morgen 80.;Min mormor fyller 80 år i morgon.
 Und das dort?;Och det där?
 Has du Geschwister?;Har du syskon?
 Er hat keine Freundin.;Han har ingen flickvän.
@@ -263,6 +279,7 @@ Das hier ist meine Freundin (Partnerin).;Det här är min flickvän.
 Das dort ist mein Enkelkind.;Det där är mitt barnbarn.
 Iss nicht den Apfel dort!;Ät inte det där äpplet!
 Ist dieser Freund dort nett?;Är den där kompisen trevlig?
+ein Tisch;ett bord
 eins;ett
 zwei;två
 drei;tre
@@ -306,15 +323,24 @@ Wann sollen wir uns treffen?;När ska vi träffas?
 Es ist erst zehn nach zwölf.;Klockan är bara tio över tolv.
 Wollen wir gegen acht Uhr sagen?;Ska vi säga vid åttatiden?
 Wollen wir zusammen zu Abend essen?;Ska vi äta middag tillsammans?
+Bei dir zu Hause?;Hemma hos dig?
 Wie ist deine Telefonnummer?;Vad har du för telefonnummer?
 eine Telefonnummer;ett telefonnummer
+Meine Nummer ist 15 20 13.;Mitt nummer är 15 20 13.
 zu Abend essen;äta middag
 zu Mittag essen;äta lunch
+Wir können bei mir zu Hause sein.;Vi kan vara hemma hos mig.
+bei mir zu Hause;hemma hos mig
+Falls ich es bis acht nicht schaffe.;Om jag inte hinner tell åtta.
 Wie spät ist es jetzt?;Vad är klockan nu?
 Es ist elf Uhr.;Klockan är elva.
 Es ist dreizehn nach elf Uhr.;Klockan är tretton över elva.
 Es ist zwanzig vor zwölf.;Klockan är tjugo i tolv.
 Es ist viertel nach elf.;Klockan är kvart över elva.
+Das Kino fängt um 12 Uhr Fünfzehn an;Bion börjar tolv och femton.
+Ich habe um dreizehn Uhr zwanzig Mittagspause.;Jag har lunchpaus tretton och tjugo.
+Keine Sorge.;Ingen fara.
+falls;om
 halb eins;halv ett
 halb;halv
 elf;elva
@@ -327,6 +353,8 @@ siebzehn;sjutton
 achtzehn;arton
 neunzehn;nitton
 zwanzig;tjugo
+Ich pflege TV zu schauen.;Jag brukar titta på TV.
+Ich pflege TV zu sehen.;Jag brukar se på TV.
 Ich pflege vegetarisch zu essen.;Jag brukar äta vegetariskt.
 Ich pflege an Dienstagen zu arbeiten.;Jag brukar arbeta på tisdagarna.
 Wann isst du zu Abend?;När äter du middag?
@@ -335,6 +363,8 @@ gegen elf Uhr;elvatiden
 am Abend; på kvällen
 Das war lange her.;Det var längesedan.
 Sollen wir zusammen Abend essen?;Ska vi äta middag tilsammans?
+Das können wir sein.;Det kan vi vara.
+Sollen wir den Wein mitbringen?;Ska vi ta med ett vin?
 ein Wein;ett vin
 zur Mutter gehen;gå till mamma
 Ich pflege an Dienstagen zu arbeiten.;Jag brukar arbeta på tisdagarna.
@@ -359,10 +389,12 @@ Ja, sehr.;Ja, mycket.
 Dann nehme ich nur einen Kaffee nach dem Essen.;Då tar jag bara kaffe på maten.
 nach dem Essen;på maten
 Wild;vilt
+Und selbstverständlich die Fleischbällchen.;Köttbullarna förstås.
 Ich will einen Käsekuchen zur Nachspeise.;Jag vill ha ostkaka till efterrätt.
 Die Rechnung beträgt dreihundertfünfundzwanzig Kronen.;Notan är på trehundratjugofem kronor.
 Bitteschön, hier sind dreihundertfünfzig Kronen.;Varsågod, här är trehundrafemtio kronor.
 Es stimmt so.;Det är jämnt.
+selbstverständlich;förstås
 eine Vorspeise;en förrätt
 eine Hauptpeise;en varmrätt
 eine Nachpeise;en efterrätt

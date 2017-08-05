@@ -6,4 +6,7 @@ class Voc {
     def incorrect = 0
     def lastAsked
 
+    def isPositive() { correct > incorrect }
+    def isNegative() { correct < incorrect }
+
 }

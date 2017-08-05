@@ -79,17 +79,31 @@ class VocabularyDatabase {
 
     def size(){ db.size() }
 
-    def hasNew() { db.any{_,q ->  q.lastAsked == null } }
+    def overallRecord(){
+      db.values().sum{q -> q.correct - q.incorrect }
+    }
+
+    def positiveRated(){
+      db.count{ _,q -> q.isPositive() }
+    }
+
+    def countNews(){
+      db.count{_,q ->  q.lastAsked == null }
+    }
+
+    def hasNew(){
+      countNews() > 0
+    }
 
     def randomNew() {
         def news = db.findAll{_,q -> q.lastAsked == null }.values()
         news[random.nextInt(news.size())]
     }
 
-    def hasNegative() { db.any{_,q -> q.correct < q.incorrect } }
+    def hasNegative() { db.any{_,q -> q.isNegative() } }
 
     def randomNegative() {
-        def incorrects = db.findAll{_,q -> q.correct < q.incorrect }.values()
+        def incorrects = db.findAll{_,q -> q.isNegative() }.values()
         incorrects[random.nextInt(incorrects.size())]
     }
 
